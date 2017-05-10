@@ -23,12 +23,12 @@ a:visited{
             float: right;
             margin:0;
             list-style: none;
+            padding-top:50px;
             .project{
-                padding: 0 5px;
+                margin: 0 5px;
                 display: inline-block;
                 height:70px;
                 float:left;
-                padding-top:50px;
                 a{
                     display: block; 
                     height:25px;
@@ -63,6 +63,7 @@ a:visited{
                     z-index: 2;
                     .db_pj{
                         padding-left: 20px;
+                        padding-right:10px;
                         font-size: 14px;
                         color:#fff;
                         &:hover{
@@ -71,7 +72,7 @@ a:visited{
                             transition:0.3s;
                         }
                         &:hover:after{
-                            background: url(../images/nav_li_bg.png)no-repeat;
+                            content: url(../images/nav_li_bg.png);
                             float:right;
                         }
                     }
